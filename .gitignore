@@ -1,2 +1,15 @@
+# Standard vs files
+*.vcxproj
+*.vcxproj.filters
 .vs/
+x64/
 Debug/
+
+# External libraries
+json.hpp
+pugixml.*
+pugiconfig.hpp
+
+# Data files
+*.json
+*.xml
