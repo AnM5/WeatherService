@@ -1,6 +1,6 @@
 # Standard vs files
-WeatherService/*.vcxproj
-WeatherService/*.vcxproj.filters
+*.vcxproj
+*.vcxproj.filters
 .vs/
 x64/
 Debug/
