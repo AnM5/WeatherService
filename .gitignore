@@ -1,4 +1,6 @@
 # Standard vs files
+*.vcxproj
+*.vcxproj.filters
 .vs/
 x64/
 Debug/
