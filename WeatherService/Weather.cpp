@@ -8,8 +8,8 @@ Weather::Weather(std::string city, double lon, double lat, double temperature, s
 	city(city), lon(lon), lat(lat), temperature(temperature), weather(weather), windSpeed(windSpeed), clouds(clouds) {}
 
 void Weather::printWeather() {
-	cout << "Сегодня в городе " << city << " (Долгота: " << lon << ", широта: " << lat << ") " << temperature << "градуса по Цельсию. "
-		<< weather << ". Скорость ветра достигает " << windSpeed << ". Облачность: " << clouds << "%.";
+	cout << "Today in " << city << " (Longitude: " << lon << ", latitude: " << lat << ") it is " << temperature << " degrees Celsius, "
+		<< weather << ". The wind speed reaches " << windSpeed << "m/s. Cloud cover: " << clouds << "%.";
 }
 
 
