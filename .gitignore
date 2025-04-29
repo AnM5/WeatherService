@@ -1,2 +1,13 @@
+# Standard vs files
 .vs/
+x64/
 Debug/
+
+# External libraries
+json.hpp
+pugixml.*
+pugiconfig.hpp
+
+# Data files
+*.json
+*.xml
